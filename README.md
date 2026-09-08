@@ -35,6 +35,6 @@ Numbers are represented as visual bars. As each sorting algorithm runs, the bars
 
 ## Author
 
-Muhammad Ismail Liaquat
-- GitHub: https://github.com/muhammadismailliaquat
-- LinkedIn: https://www.linkedin.com/in/muhammad-ismail-liaquat-12712941a/
+Alvia Rafique
+- GitHub: https://github.com/alvia004
+- LinkedIn:https://www.linkedin.com/in/alvia-rafique-3a152a2b2/
