@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- Header -->
+        <header class="header">
+            <p class="tag">Algorithm Visualizer</p>
+            <h1>Sorting Algorithm Visualizer</h1>
+            <p class="description">
+                Watch sorting algorithms work step by step.
+            </p>
+        </header>
+
+
+        <!-- Controls -->
+        <section class="controls">
+
+            <div class="control-group">
+                <button id="randomBtn">Generate Random Array</button>
+                <button id="customBtn">Enter Custom Numbers</button>
+            </div>
+
+            <div class="control-group">
+
+                <label for="algorithm">Algorithm</label>
+
+                <select id="algorithm">
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                </select>
+
+            </div>
+
+            <div class="control-group">
+
+                <label for="speed">Speed</label>
+
+                <input type="range" id="speed" min="100" max="1000" value="500">
+
+            </div>
+
+        </section>
+
+
+        <!-- Algorithm Info -->
+        <section class="algorithm-info">
+
+            <h2>Bubble Sort</h2>
+
+            <p>
+                Repeatedly compares adjacent values and swaps them
+                when they are in the wrong order.
+            </p>
+
+        </section>
+
+
+        <!-- Visualizer -->
+        <section class="visualizer-section">
+
+            <div id="barsContainer" class="bars-container">
+                <!-- JavaScript will create bars here -->
+            </div>
+
+        </section>
+
+
+        <!-- Stats -->
+        <section class="stats">
+
+            <div class="stat">
+                <span>Comparisons</span>
+                <strong id="comparisons">0</strong>
+            </div>
+
+            <div class="stat">
+                <span>Swaps</span>
+                <strong id="swaps">0</strong>
+            </div>
+
+            <div class="stat">
+                <span>Status</span>
+                <strong id="status">Ready</strong>
+            </div>
+
+        </section>
+
+
+        <!-- Actions -->
+        <section class="actions">
+
+            <button id="startBtn">
+                ▶ Start Sorting
+            </button>
+
+            <button id="resetBtn">
+                Reset
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
